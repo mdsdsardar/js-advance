@@ -18,7 +18,7 @@ fst_btn.addEventListener("click", fst_func);
 //    - Output the second button WITHOUT using the variable in which it's stored
 function snd_func(event) {
   //   fst_pgph.style.backgroundColor = "blue"; //can drill down from browser to do this.
-  fst_pgph.classList.add("blue-bg"); //It'll this class to existing class best option.
+  fst_pgph.classList.add("blue-bg"); //It'll add this class to existing class best option.
   console.dir(event.target);
 }
 snd_btn.addEventListener("click", snd_func);
